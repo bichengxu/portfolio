@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+  background-color: orange;
+  color: white;
+}
+
+header h1 { 
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+}
+
+header nav{
+  text-align: right;
+}
+
+header nav a{
+  display:inline-block;
+  font-size: 2rem;
+  padding:0 0 0 2rem;
+  color:white;
+}
+
+#current{
+text-decoration:underline;
+}
+
+footer {
+  font-size: 1.5rem;
+  padding: 20px;
+  background-color: orange;
+  color:white;
+
+  position:absolute;
+  bottom:0;
+  width: 100%
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li{
+  display:inline-block;
+  margin-left: 1rem;
+}
+
+footer a{
+  color:white;
+}
+
+
+
+form li{
+	list-style: none;
+}
+
+form{
+	padding:2rem;
+	font-size: 2rem;
+}
+
+form input, form textarea{
+	display: block;
+}
+
+@media only screen and (max-width: 1207px) {
+
+   header h1,header nav{
+    text-align: center!important;
+    margin: 0 auto;
+   }
+
+   header nav{
+    padding-top:1rem;
+   }
+
+   footer ul, footer p{
+    text-align: center!important;
+    margin: 0 auto;
+   }
+
+   section div{
+    text-align: center;
+   }
+
+   section p, section h3, section a{
+    padding-left:4rem;}
+}
+
+@media only screen and (max-width: 414px) {
+  header nav a{
+    display:block;}
+}

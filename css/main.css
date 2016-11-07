@@ -1,0 +1,156 @@
+body {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header h1 { 
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+}
+
+header nav{
+  text-align: right;
+}
+
+header nav a{
+  display:inline-block;
+  font-size: 2rem;
+  padding:0 0 0 2rem;
+  color:black;
+}
+
+#current{
+text-decoration:underline;
+color:orange;
+}
+
+.jumbotron {
+  background-image: url(../img/works.jpg);
+  background-size:cover;
+  height: 400px;
+  margin-bottom: 60px;
+  padding: 0;
+  position: relative;
+}
+
+.jumbotron .dark-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.jumbotron h2 {
+  font-size: 3em;
+  font-weight: 300;
+  margin: 0;
+  color: #fff;
+  line-height: 1.2;
+}
+
+
+section .row img {
+  max-width:300px;
+  height:auto;
+}
+
+section .col-lg-4 img{
+  max-width:350px; 
+  height:auto;
+  display:inline;
+}
+
+section{
+  margin-bottom:60px;
+}
+
+.project_brief{
+  font-size: 2rem;
+}
+
+.project_name{
+  text-transform: uppercase;
+  font-weight: 500px;
+  font-size: 3rem;
+
+}
+
+.read_more{
+  color:orange;
+  font-size: 2rem;
+}
+
+footer {
+  font-size: 1.5rem;
+  padding: 20px;
+  background-color: orange;
+  color:white;
+
+  position:absolute;
+  bottom:0;
+  width: 100%
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li{
+  display:inline-block;
+  margin-left: 1rem;
+}
+
+footer a{
+  color:white;
+}
+
+@media only screen and (max-width: 1207px) {
+  .jumbotron h2 {
+    font-size:2em;
+}
+
+   header h1,header nav{
+    text-align: center!important;
+    margin: 0 auto;
+   }
+
+   header nav{
+    padding-top:1rem;
+   }
+
+   footer ul, footer p{
+    text-align: center!important;
+    margin: 0 auto;
+   }
+
+   section div{
+    text-align: center;
+   }
+
+   section p, section h3, section a{
+    padding-left:4rem;}
+}
+
+@media only screen and (max-width: 414px) {
+  header nav a{
+    display:block;}
+
+    .jumbotron h2 {
+    font-size:1.5em;
+    }
+}
